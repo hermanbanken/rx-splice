@@ -1,6 +1,6 @@
 {
   "name": "rx-splice",
-  "version": "1.0.0",
+  "version": "1.6.1",
   "main": "dist/splice.js",
   "files": [
     "dist/splice.js",
@@ -42,7 +42,14 @@
     ]
   },
   "keywords": [
-    "Rx", "RxJS", "ReactiveX", "ReactiveExtensions", "Stream", "Observables",
-    "splice", "performance", "filter"
+    "Rx",
+    "RxJS",
+    "ReactiveX",
+    "ReactiveExtensions",
+    "Stream",
+    "Observables",
+    "splice",
+    "performance",
+    "filter"
   ]
 }
