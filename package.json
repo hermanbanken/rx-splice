@@ -1,0 +1,37 @@
+{
+  "name": "rx-splice",
+  "version": "1.0.0",
+  "main": "dist/splice.js",
+  "files": [
+    "dist/splice.js",
+    "README.md"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@kwonoj/rxjs-testscheduler-compat": "^1.0.3",
+    "@types/jest": "^23.1.1",
+    "@types/node": "^10.3.5",
+    "jest": "^23.1.0",
+    "rxjs": "5.x",
+    "ts-jest": "^22.4.6",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "rxjs": "5.x"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": ".*\\.spec\\.(ts|js)$",
+    "testPathIgnorePatterns": [
+      "/node_modules/(?!@kwonoj)",
+      "<rootDir>/dist/"
+    ]
+  }
+}
