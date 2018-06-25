@@ -27,6 +27,10 @@
   "peerDependencies": {
     "rxjs": "5.x"
   },
+  "scripts": {
+    "compile": "tsc",
+    "prepublish": "tsc"
+  },
   "jest": {
     "moduleFileExtensions": [
       "ts",
